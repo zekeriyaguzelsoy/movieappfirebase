@@ -1,22 +1,15 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
+    <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
-        <h2>VueFire Movie App</h2>
+        <h2>Movie App</h2>
       </div>
-
       <v-spacer></v-spacer>
-
     </v-app-bar>
 
     <v-main>
-      <movieApp/>
+      <movieApp />
     </v-main>
-
   </v-app>
 </template>
 
@@ -27,7 +20,7 @@ export default {
   name: 'App',
 
   components: {
-    movieApp
+    movieApp,
   },
 
   data: () => ({
